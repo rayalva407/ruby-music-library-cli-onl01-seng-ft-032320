@@ -52,7 +52,8 @@ class MusicLibraryController
       puts "Please enter a genre:"
       input = gets.chomp
       
-      if genre = Genre
+      if genre = Genre.find_by_name(input)
+        genre.songs
       
     end
     
