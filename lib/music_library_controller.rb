@@ -41,7 +41,9 @@ class MusicLibraryController
       puts "Enter an artist:"
       input = gets.chomp
       
-      if artist = 
+      if artist = Artist.find_by_name(input)
+        
+      end
     end
     
   end
