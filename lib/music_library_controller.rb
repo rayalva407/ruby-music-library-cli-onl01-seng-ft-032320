@@ -31,5 +31,9 @@ class MusicLibraryController
       end
     end
     
+    def list_genres
+      Genre.all.sort {|a, b|}
+    end
+    
   end
 end
