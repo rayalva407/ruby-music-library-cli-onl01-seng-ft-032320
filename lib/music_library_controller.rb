@@ -19,6 +19,7 @@ class MusicLibraryController
       input = gets.chomp
       
       case input
+      
     end
       
     def list_songs
