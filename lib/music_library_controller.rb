@@ -41,7 +41,7 @@ class MusicLibraryController
       puts "Enter an artist:"
       input = gets.chomp
       
-      if
+      if artist = 
     end
     
   end
